@@ -1,0 +1,6 @@
+- name: Demp playbook
+  hosts:all
+  tasks:
+    - name:Print Hello world
+      ansible.builtin.debug:
+        msg:hello world
